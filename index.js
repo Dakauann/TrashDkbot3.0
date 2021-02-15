@@ -67,7 +67,7 @@ const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
             + 'FN: TRASHфDKBOT\n'
             + 'ORG:Owner TRASHфDKB;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=558494740630:+55 84 9474-0630 type
+            + 'TEL;type=CELL;type=VOICE;waid=558494740630:+55 84 9474-0630type
             + 'END:VCARD'
 
 prefix = "!"
