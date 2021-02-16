@@ -888,15 +888,7 @@ async function starts() {
 					const bisakahh = ["Pode","Não posso","Não sei"]
 					const keh = bisakahh[Math.floor(Math.random() * bisakahh.length)]
 					client.sendMessage(from, 'Pertanyaan : *'+bisakah+'*\n\nJawaban : '+ keh, text, { quoted: mek })
-					break 
-				case 'kapankah':
-				if (isBanned) return reply(mess.only.benned)    
-				if (!isUser) return reply(mess.only.userB)
-					kapankah = body.slice(1)
-					const kapankahh = ["Mais 1 semana","mais 1 mês","mais 1 ano","mais 100 anos","gatau","2030","falta 1 hora","mais 1 minuto"]
-					const koh = kapankahh[Math.floor(Math.random() * kapankahh.length)]
-					client.sendMessage(from,'pertanyaan' : *'+quando+'*\n\nJawaban : '+ koh, text, { quoted: mek })
-					break 
+					br
 				case 'truth':
 				if (isBanned) return reply(mess.only.benned)    
 				if (!isUser) return reply(mess.only.userB)
