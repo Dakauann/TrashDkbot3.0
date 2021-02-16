@@ -895,7 +895,7 @@ async function starts() {
 					kapankah = body.slice(1)
 					const kapankahh = ["Mais 1 semana","mais 1 mês","mais 1 ano","mais 100 anos","gatau","2030","falta 1 hora","mais 1 minuto"]
 					const koh = kapankahh[Math.floor(Math.random() * kapankahh.length)]
-					client.sendMessage(from, 'Pergunta' : *'+quando+'*\n\nJawaban : '+ koh, text, { quoted: mek })
+					client.sendMessage(from,'Pergunta' : *'+quando+'*\n\nJawaban : '+ koh, text, { quoted: mek })
 					break 
 				case 'truth':
 				if (isBanned) return reply(mess.only.benned)    
