@@ -2,8 +2,8 @@
 const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam, tanggal) => { 
 	return `
 
-\`\`\`APROVEITEM O BOT FML TMJ\`\`\`
-\`\`\`MMEU CANAL: https://youtu.be/hwJ31n05Qwk\`\`\`
+\`\`\`APROVEITEM O BOT \`\`\`
+\`\`\`MMEU CANAL: https:/https://youtube.com/channel/UCOqlFzRrB8IZUWUx1cwCeUw\`\`\`
 
 ╭──────「 *REGULATION ${name}* 」
 ┴
@@ -17,7 +17,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ┣⊱  \`\`\`USE TERDAFTAR:\`\`\` *${user.length} User*
 ┣⊱  ❌ *SPAM*
 ┣⊱  ❌ *CALL & VC*
-┣⊱  \`\`\`\`\`\` *BOT FEITO POR BY BRUXINHO MODS*
+┣⊱  \`\`\`\`\`\` *BOT FEITO POR TRASHфDKOFC*
 ┬
 ╰────────────────────────
 
