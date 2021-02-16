@@ -542,7 +542,7 @@ async function starts() {
 				    break 
 				case 'owner':
                  client.sendMessage(from, {displayname: "DKOFC", vcard: vcard}, MessageType.contact, { quoted: mek})
-                 client.sendMessage(from, 'Salve o número do meu criador ae fdp:)',text, { quoted: mek} )
+                 client.sendMessage(from, 'Salve o número do meu criador ae fdp:)\n wa.me/558494740630',text, { quoted: mek} )
                  break
                  case 'fitnah':	
 				case 'fake':          
@@ -1767,7 +1767,7 @@ case 'pack+18':
               client.sendMessage(from, tiktok, image, {quoted: mek})
 			        await limitAdd(sender) 
 			        break 
-		    case 'darkjokes':
+		    case 'dkjokes':
 				client.updatePresence(from, Presence.composing) 
 				 if (isBanned) return reply(mess.only.benned)    
 				 if (isLimit(sender)) return reply(limitend(pushname2))
@@ -1778,7 +1778,7 @@ case 'pack+18':
                  randIndex = Math.floor(Math.random() * jsonData.length);
                  randKey = jsonData[randIndex];
                  darkjokes = await getBuffer(randKey.result)
-                 client.sendMessage(from, darkjokes, image, {quoted: mek, caption: '\`\`\`DARK JOKES\`\`\`'})
+                 client.sendMessage(from, darkjokes, image, {quoted: mek, caption: '\`\`\`DK JOKES\`\`\`'})
 				await limitAdd(sender) 
 				break  
 			case 'katailham':
