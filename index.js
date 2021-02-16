@@ -59,8 +59,8 @@ instagram, yt, groupLink, memberLimit
 } = setting
 
 const { fetchJson } = require('./lib/fetcher')
-const { apkpremium } = require('./src/apkpremium')
-const { pack18 } = require('./src/pack18')
+const { apkpremium } = require('./database/json/apkpremium')
+const { pack18 } = require('./database/json/pack18')
 const { recognize } = require('./lib/ocr')
 const { color, bgcolor } = require('./lib/color')
 const { help, bahasa, donasi, limitend, limitcount } = require('./Fxc7/help')
