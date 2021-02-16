@@ -319,14 +319,7 @@ async function starts() {
             _level.push(obj)
             fs.writeFileSync('./database/json/level.json', JSON.stringify(_level))
         }
-       
-       const isLevelingOn = isGroup ? _leveling.includes(groupId) : false
-                        const NomerOwner = '558494740630@s.whatsapp.net'
-                        const botLangs = languages
-                        const isEventon = isGroup ? event.includes(from) : false
-                        const isRegister = checkRegisteredUser(sender)
-                        const isAntiLink = isGroup ? antilink.includes(from) : false
-                        pushname = nzwa.contacts[sender] != undefined ? nzwa.contacts[sender].vname || nzwa.contacts[sender].notify : undefined
+
 
 			const isUrl = (url) => {
 			    return url.match(new RegExp(/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._+~#=]{1,256}\.[a-zA-Z0-9()]{1,6}\b([-a-zA-Z0-9()@:%_+.~#?&/=]*)/, 'gi'))
