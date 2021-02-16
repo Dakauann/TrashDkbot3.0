@@ -245,7 +245,7 @@ async function starts() {
 			const isQuotedVideo = type === 'extendedTextMessage' && content.includes('videoMessage')
 			const isQuotedSticker = type === 'extendedTextMessage' && content.includes('stickerMessage')
 			
-			const check  Limit = (sender) => {
+			const checkLimit = (sender) => {
                 let found = false
                     for (let lmt of _limit) {
                         if (lmt.id === sender) {
